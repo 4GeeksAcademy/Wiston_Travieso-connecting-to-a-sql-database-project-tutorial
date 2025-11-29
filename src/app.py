@@ -118,3 +118,4 @@ with engine.connect() as connection:
 
     df= pd.read_sql("SELECT * FROM publishers;", engine)
     print(df)
+    
